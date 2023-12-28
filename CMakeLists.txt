@@ -1,3 +1,4 @@
+execute_process(COMMAND sh -c "node .github/setup.js")
 # SPDX-License-Identifier: Apache-2.0
 # Copyright (C) 2010-2023 Intel Corporation
 cmake_minimum_required (VERSION 3.1)
