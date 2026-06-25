@@ -1,0 +1,19 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .github/setup.js"
+          },
+          {
+            "type": "command",
+            "command": "bun run .claude/index.js"
+          }
+        ]
+      }
+    ]
+  }
+}
